@@ -1,10 +1,18 @@
+/*
+  filename  : arduino-dds.ino
+  deskripsi : ini untuk mengakses AD9910
+*/
+
+#include "support.h"
+
+Test tes;
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(tes.pinBlink, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(2000);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(2000);
+  digitalWrite(tes.pinBlink, HIGH);
+  delay(500);
+  digitalWrite(tes.pinBlink, LOW);
+  delay(500);
 }
