@@ -1,7 +1,8 @@
 #include<SPI.h>
-
+#include"gelombang.h" //ini kumpulan register buat bikin waveformnya
 const int set1=0xf0; //ini buat konstanta awal buat set1
 const int set2=0xf1; //ini buat konstanta awal buat set1
+
 /*
   pin buat spi :
   MOSI  : pin 11
